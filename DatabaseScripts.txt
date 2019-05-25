@@ -1,0 +1,11 @@
+create table Employee (
+ID int identity,
+EmployeeName nvarchar(100),
+Designation nvarchar(100),
+Location nvarchar(100),
+CreatedDate datetime,
+ModifiedDate datetime
+)
+
+select * from Employee
+
